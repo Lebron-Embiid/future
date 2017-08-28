@@ -1,0 +1,27 @@
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="javascript:;" ui-sref="index">未来生活</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a ui-sref="index">科技</a></li>
+            <li><a href="javascript:;">文化</a></li>
+            <li><a href="javascript:;">生活</a></li>
+            <li><a ui-sref="about">关于我们</a></li>
+            <li><a href="javascript:;">联系我们</a></li>
+          </ul>
+
+          <form class="header-search pull-right hidden-sm hidden-xs" action="/search">
+            <button class="btn btn-link" type="submit"><span class="sr-only">搜索</span><span class="glyphicon glyphicon-search"></span></button>
+            <input type="text" value="" class="form-control" placeholder="输入关键字搜索" name="q" id="searchBox" style="width: 180px;">
+          </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
